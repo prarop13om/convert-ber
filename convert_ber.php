@@ -25,11 +25,11 @@
 			$chk_error=strpos($line,"คุณใส่เบอร์โทรศัพท์ไม่ถูกต้องค่ะ");
 			//if($chk_timeout=="Time out")continue;
 			if($chk_timeout<>""){
-				echo "Time out\n";
+				$res.= "Time out\n";
 				continue;
 			}else if($chk_error<>""){
 				
-				echo "คุณใส่เบอร์โทรศัพท์ไม่ถูกต้องค่ะ\n";
+				$res.= "คุณใส่เบอร์โทรศัพท์ไม่ถูกต้องค่ะ\n";
 				continue;
 			}
 
