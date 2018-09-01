@@ -48,8 +48,8 @@
 <form id="frm_convert_ber" action="index.php" method="post">
 	Input<br>
 		<textarea id="ber_input" name="ber_input" rows="10" cols="75"></textarea>
-		Select Bot :
 		<!--
+		Select Bot :
 		<select id="bot_name" name="bot_name">
 			<option value="P!N-2ALPHA">P!N-2ALPHA</option>
 			<option value="AutoBot">AutoBot</option>
